@@ -1,0 +1,46 @@
+@import url(main.css);
+
+/* 
+
+PALETA DE COLORES SUBLIEME---
+Naranja-
+#d35400
+Negro-
+#101010
+Blanco-
+#ffffff
+
+*/
+.ordenes{
+    padding: 8%;
+}
+.ordenes .orden ul{
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    padding: 2%;
+    margin: 5% 0%;
+}
+.ordenes .orden li{
+    list-style: none;
+}
+.ordenes .orden li p{
+    padding-left: 2%;
+}
+.ordenes .orden ul li button{
+    padding: 2%;
+    margin: 2%;
+    background-color: #d35400;
+    border: none;
+    color: #ffffff;
+}
+.ordenes .orden ul img{
+    width: 100%;
+}
+.ordenes .orden .datos{
+    padding-bottom: 2%;
+    border-bottom: 1px solid white;
+}
+.ordenes .orden .total{
+    background-color: rgba(255, 255, 255, 0.122);
+    padding: 2%;
+    margin: 2%;
+}

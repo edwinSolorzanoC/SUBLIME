@@ -1,0 +1,110 @@
+@import url(main.css);
+
+/* 
+
+font-family: "Permanent Marker", cursive;
+
+PALETA DE COLORES SUBLIEME---
+Naranja-
+#d35400
+Negro-
+#101010
+Blanco-
+#ffffff
+
+*/
+
+.portada{
+    padding: 10% 10% 5% 10%;
+    text-align: center;
+}
+.portada img{
+    padding-bottom: 2%;
+    height: 50px;
+}
+
+.portada .iniciar button{
+    padding: 2% 10%;
+    margin: 5%;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+    color: #101010;    
+}
+.portada .datos{
+    display: none;
+}
+.portada .datos .usuario div{
+    text-align: start;
+    display: block;
+
+}
+.portada .datos .usuario div input{
+    width: 90%;
+    padding: 3% 2%;
+    margin: 1.5% 0%;
+    background-color: rgba(255, 255, 255, 0.838); 
+    border: none;
+    border-radius: 10px;
+}
+.portada .datos .usuario .sinpe input{
+    color: #101010;
+}
+
+.portada .datos .orden tbody tr{
+    background-color: rgba(255, 255, 255, 0.135); 
+}
+.portada .datos .orden tfoot tr{
+    background-color: rgba(0, 128, 0, 0.263);
+}
+.portada .datos .orden button{
+    padding: 2% 5%;
+    margin: 2%;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+    color: #101010;  
+}
+.portada .datos .orden .opciones{
+    display: flex;
+}
+
+.menu{
+    padding: 0% 10% 10% 10%;
+}
+.menu .titulo{
+    text-align: center;
+}
+.menu .titulito{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 1%;
+    background-color: #d35400;
+}
+.menu .plato{
+    padding: 2%;
+}
+.menu .plato .datos{
+    display: flex;
+    font-weight: 500;
+}
+.menu .plato .datos p{
+    padding: 2% 10% 2% 0%;
+}
+.menu .plato button{
+    background-color: #ffffff;
+    color: #101010;
+
+    border: none;
+    border-radius: 80%;
+    padding: 0% 3%;
+}
+
+.menu .nachos{
+    padding-top: 10%;
+}
+.menu .agregar{
+    padding: 2% 2.5%;
+    display: none;
+}
+

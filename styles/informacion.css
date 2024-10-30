@@ -1,0 +1,56 @@
+@import url(main.css);
+
+
+.historia{
+    padding: 10%;
+}
+
+.administracion{
+    padding: 10%;
+}
+
+.administracion .formulario{
+    background-color: #1d1d1d;
+    border-radius: 2%;
+    padding: 2%;
+}
+.administracion .formulario div{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1% 0%;
+}
+.administracion .formulario div button, .administracion .formulario div input{
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+
+    background-color: #ffffff;
+    color: #101010;
+}
+
+.administracion .formulario button{
+    background-color: #d35400 !important;
+    color: #ffffff !important;
+}
+
+.ubicacion{
+    padding: 5% 10%;
+}
+
+.ubicacion iframe{
+    width: 100%;
+    height: 100%;
+
+    padding: 5% 0%;
+}
+
+.parqueo{
+    padding: 5% 10%;
+}
+.parqueo img{
+    padding: 2% 0%;
+    height: 100%;
+    width: 100%;
+}
