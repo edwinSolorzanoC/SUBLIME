@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="public/styles/ordenar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="shortcut icon" href="img/448245078_122174641946064921_5933633073358415459_n.jpg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+
+    <header>
+
+        <section class="logo">
+            <img src="img/448245078_122174641946064921_5933633073358415459_n.jpg" alt="">
+        </section>
+        <section class="navegacion">
+            <p><a href="index.html">INICIO</a></p>
+            <p><a href="menu.html">MENÚ</a></p>
+            <p><a href="ordenar.html">ORDENAR</a></p>
+            <p><a href="informacion.html">INFORMACION</a></p>
+        </section>  
+    </header>
+
+    <main>
+
+        <section class="portada">
+            <img src="img/448245078_122174641946064921_5933633073358415459_n.jpg" alt="">
+            <h1>REALIZA TU ORDEN</h1>
+            <div class="iniciar">
+                <button id="iniciar" class="iniciar">INICIAR ORDEN</button>
+            </div>
+
+            <div class="datos" id="datos">
+
+                <form action="">
+                    
+                    <div class="usuario">
+                        <p style="padding: 1% 0%;">Ingresa tus datos de contacto</p>
+                        <div class="nombre">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                        </div>
+                        <div class="numero">
+                            <label for="numero">Telefono:</label>
+                            <input type="number" name="numero" id="numero" required>
+                        </div>
+                        <div class="sinpe">
+                            <label for="sinpe">Añadir comprobante de pago:</label>
+                            <input type="file" name="sinpe" id="imagen" required>
+                        </div>
+                    </div>
+                    
+                    <div class="orden">
+                        <p style="padding: 2% 0%;">Tu orden</p>
+    
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>PLATILLOS</th>
+                                    <th>DETALLE ORDEN</th>
+                                    <th>PRECIO</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sublime</td>
+                                    <td>Sin cebolla sin lechuga y sin tomate</td>
+                                    <td>5500</td>
+                                </tr>
+                                <tr>
+                                    <td>Sublime</td>
+                                    <td>Sin cebolla sin lechuga sin tomate y sin mermelada bacon</td>
+                                    <td>5500</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>PRECIO TOTAL</td>
+                                    <td></td>
+                                    <td>11000</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+    
+                        <div class="opciones">
+                            <button id="finalizar" type="button">CONFIRMAR ORDEN</button>
+                            <button id="cancelar" type="button">CANCELAR ORDEN</button>
+                        </div>
+                        
+                    </div>
+                    
+                </form>
+                
+                
+            </div>
+
+        </section>
+
+
+
+        <section class="menu">
+            <h1 class="titulo">Nuestro Menú</h1>
+            <p style="text-align: center; padding-bottom: 2%;">Pide y disfruta ¡Te esperamos! 🌮👨‍👩‍👧‍👦</p>
+
+            <div class="hambuguesas">
+                <h1 class="titulito">Hamburguesas</h1>
+                <p>*Todos incluyen papas fritas</p>
+                
+                <div class="plato">
+                    <div class="datos">
+                        <p>Sublime</p>
+                        <p>5500</p>
+                        <button id="agregar" class="agregar"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="ingredientes">
+                        <p>Pan Brioche, Torta Smash X2, Queso Cheddar X1, Queso Empanizado X1, Mermelada de Bacon, Lechuga, Tomate, Cebolla Morada y Mostaza Miel</p>
+                    </div>
+                </div>
+
+                <div class="plato">
+                    <div class="datos">
+                        <p>Smash</p>
+                        <p>4500</p>
+                        <button id="agregar" class="agregar"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="ingredientes">
+                        <p>Pan Brioche, Torta Smash X2, Queso Cheddar X2, Pepinillos y Salsa Americana</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="imagen"> 
+                <img src="img/dos burguer.png" alt="">
+            </section>
+
+            <div class="nachos">
+                <h1 class="titulito">Nachos</h1>
+                <div class="plato">
+                    <div class="datos">
+                        <p>Nachos de Pollo</p>
+                        <p>4500</p>
+                        <button id="agregar" class="agregar"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="ingredientes">
+                        <p>Chips de Tortilla, Fijitas Salteadas con chile Dulce, Cebolla, Frijoles Molitos, Queso Cheddar, Queso Mozarella, Pico de Gallo, Guacamole y Natilla</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section class="imagen">
+            <img src="img/448245078_122174641946064921_5933633073358415459_n.jpg" alt="">
+        </section>
+        <section class="redes">
+            <p>NUESTRAS REDES</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+        </section>
+    </footer>
+    
+    <script type="module" src="public/js/ordenar.js"></script>
+    
+</body>
+</html>
